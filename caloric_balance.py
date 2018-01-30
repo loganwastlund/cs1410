@@ -2,4 +2,6 @@
 
 class CaloricBalance:
 
-    oiewjfo
+    def __init__(self):
+        self.self = self
+        
