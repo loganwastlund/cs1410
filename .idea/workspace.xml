@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d1663f-a0af-4439-b550-cfd8d0848a34" name="Default" comment="" />
+    <list default="true" id="03d1663f-a0af-4439-b550-cfd8d0848a34" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/word_zap_assignment/main.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/word_zap_assignment/player.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/cs1410.iml" afterPath="$PROJECT_DIR$/.idea/cs1410.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_CaloricBalance_all.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_CaloricBalance_eatFood.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_CaloricBalance_getBMR.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_CaloricBalance_getBalance.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_CaloricBalance_init.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_CaloricBalance_recordActivity.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_all.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_applyAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_createCaloricBalance.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_eatFoodAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_formatActivityMenu.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_formatMenu.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_formatMenuPrompt.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_getUserFloat.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_getUserString.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_quitAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/caloric_balance/test_main_recordActivityAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/can0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/can1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/can2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/can_easy.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/createDataFiles.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/dnaSequencing.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/sol0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/sol1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/sol2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/sol_easy.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/tar0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/tar1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/tar2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/tar_easy.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_all.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_candidateOverlapsTarget.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_fileToList.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_findBestCandidate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_findLargestOverlap.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_joinTwoStrands.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_returnFirstString.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_strandsAreEqualLengths.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dnaSequence/test_strandsAreNotEmpty.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_all.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_applyAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_calculateMPG.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_calculateMPGAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_createNotebook.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_formatMenu.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_formatMenuPrompt.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_getDate.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_getGallons.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_getMiles.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_getUserFloat.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_getUserString.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_listTrips.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_listTripsAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_milesPerGallon.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_quitAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_recordTrip.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gas_mileage/test_recordTripAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbn.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/isbn_keys.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/isbn_values.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_all.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_applyAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_createIndex.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_findBook.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_findBookAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_formatMenu.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_formatMenuPrompt.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_getISBN.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_getTitle.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_getUserChoice.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_listBooks.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_listBooksAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_quitAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_recordBook.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbnTests/test_recordBookAction.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbn_index.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbn_keys.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/isbn_values.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/notes.py" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +97,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="caloric_balance.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/caloric_balance.py">
+    <leaf>
+      <file leaf-file-name="player.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word_zap_assignment/player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/word_zap_assignment/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,14 +135,18 @@
       <list>
         <option value="$PROJECT_DIR$/caloric_balance/ttttt.py" />
         <option value="$PROJECT_DIR$/caloric_balance.py" />
+        <option value="$PROJECT_DIR$/word_zap_assignment/player.py" />
+        <option value="$PROJECT_DIR$/word_zap_assignment/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
     <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="763" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -62,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,11 +170,17 @@
               <item name="cs1410" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs1410" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cs1410" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs1410" type="462c0819:PsiDirectoryNode" />
+              <item name="word_zap_assignment" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,9 +216,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1400" height="763" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24242425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -139,7 +245,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/caloric_balance.py">
+    <entry file="file://$PROJECT_DIR$/caloric_balance.py" />
+    <entry file="file://$PROJECT_DIR$/caloric_balance/ttttt.py" />
+    <entry file="file://$PROJECT_DIR$/caloric_balance.py" />
+    <entry file="file://$PROJECT_DIR$/notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caloric_balance/caloric_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caloric_balance/main" />
+    <entry file="file://$PROJECT_DIR$/caloric_balance/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_zap_assignment/player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -147,11 +278,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance/ttttt.py" />
-    <entry file="file://$PROJECT_DIR$/caloric_balance.py">
+    <entry file="file://$PROJECT_DIR$/word_zap_assignment/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
