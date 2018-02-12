@@ -36,3 +36,11 @@ class Player:
                 return False
         self.letters = letters
         return True
+
+
+# luke = Player("Luke")
+# for i in range(20):
+#     luke.drawLetter()
+# print(luke.getLetters())
+# print(luke.checkWord("jade"))
+# print(luke.getLetters())
