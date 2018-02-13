@@ -66,12 +66,16 @@ Your letters are: {player.printLetters()}''')
                     print(f'You get another letter, "{player.drawLetter()}"')
                     turn = False
                 else:
-                    if player.checkWord(word):
+                    state = player.checkWord(word)
+                    if state == 0:
                         print("Great job!")
                         print()
                         turn = False
-                    else:
+                    elif state == 1:
+                        print("Check your letters and try again!")
                         turn = True
+                    elif state == 2:
+                        print("That is not a word according to me!")
             if len(player.getLetters()) == 0:
                 print(f"{player.name} wins!!")
                 game = False

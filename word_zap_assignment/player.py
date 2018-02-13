@@ -2,6 +2,8 @@ from random import choice
 import json
 from copy import copy
 
+jsondata = json.load(open("dictionary.json"))
+
 
 class Player:
     def __init__(self, name):
@@ -34,9 +36,12 @@ class Player:
             if letter in letters:
                 letters.remove(letter)
             else:
-                return False
-        self.letters = letters
-        return True
+                return 1
+        if word in jsondata.keys():
+            self.letters = letters
+            return 0
+        else:
+            return 2
 
 
 # luke = Player("Luke")
