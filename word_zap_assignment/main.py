@@ -1,5 +1,5 @@
 from player import Player
-
+import sys
 
 
 def instructions():
@@ -75,6 +75,7 @@ Your letters are: {player.printLetters()}''')
             if len(player.getLetters()) == 0:
                 print(f"{player.name} wins!!")
                 game = False
+                sys.exit()
 
 
 if __name__ == '__main__':
