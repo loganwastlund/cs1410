@@ -76,6 +76,13 @@ Your letters are: {player.printLetters()}''')
                         turn = True
                     elif state == 2:
                         print("That is not a word according to me!")
+                        override = input("Would you like to override?(y/n) ")
+                        if override == "y":
+                            override = True
+                            player.checkWord(word, override)
+                            turn = False
+                    elif state == 3:
+                        print("Not long enough of a word!")
             if len(player.getLetters()) == 0:
                 print(f"{player.name} wins!!")
                 game = False

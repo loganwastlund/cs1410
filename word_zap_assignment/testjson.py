@@ -1,4 +1,4 @@
 import json
 
 jsondata = json.load(open("dictionary.json"))
-print(jsondata["door"])
+print(jsondata["died"])

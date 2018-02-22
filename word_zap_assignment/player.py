@@ -30,14 +30,16 @@ class Player:
             string += (letter + " ")
         return string.strip()
 
-    def checkWord(self, word):
+    def checkWord(self, word, override = False):
         letters = copy(self.letters)
         for letter in word:
             if letter in letters:
                 letters.remove(letter)
             else:
                 return 1
-        if word in jsondata.keys():
+        if len(word) < 3:
+            return 3
+        elif word in jsondata.keys() or override:
             self.letters = letters
             return 0
         else:
