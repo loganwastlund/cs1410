@@ -8,7 +8,7 @@ if sys.version_info.major != 3:
     sys.exit(1)
 
 import unittest
-from caloric_balance import main
+import main
 import sys
 
 
@@ -56,7 +56,7 @@ class TestQuitAction(unittest.TestCase):
         return
 
     def test002_quitActionCallsExit(self):
-        from caloric_balance.main import quitAction
+        from main import quitAction
         index = {}
         expected = {}
 

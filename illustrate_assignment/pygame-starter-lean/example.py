@@ -7,6 +7,8 @@ import pygame
 # - holding the UP key to move them up
 # - pressing the A key to move them to the left of the window
 # - holding the A key to gradually move them to the right
+
+
 class Example:
 
     def __init__( self, width, height ):

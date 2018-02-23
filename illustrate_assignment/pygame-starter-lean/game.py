@@ -4,6 +4,7 @@
 import pygame
 import pygame.locals
 
+
 class Game:
     def __init__( self, name, width, height, frames_per_second ):
         self.width = width

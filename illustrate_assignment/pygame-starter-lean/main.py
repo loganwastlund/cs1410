@@ -11,7 +11,8 @@ WINDOW_WIDTH  = 700
 # pixels high
 WINDOW_HEIGHT = 600
 # frames per second
-DESIRED_RATE  = 10
+DESIRED_RATE  = 70
+
 
 class PygameApp( game.Game ):
 
@@ -23,8 +24,7 @@ class PygameApp( game.Game ):
         # YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
         self.mGame = example.Example( width, height )
         return
-        
-        
+
     def game_logic( self, keys, newkeys, buttons, newbuttons, mouse_position, dt ):
         # keys contains all keys currently held down
         # newkeys contains all keys pressed since the last frame
@@ -67,10 +67,14 @@ class PygameApp( game.Game ):
         self.mGame.draw( surface )
         return
 
+
 def main( ):
     pygame.font.init( )
     game = PygameApp( TITLE, WINDOW_WIDTH, WINDOW_HEIGHT, DESIRED_RATE )
     game.main_loop( )
-    
+
+
 if __name__ == "__main__":
     main( )
+
+# build a bear

@@ -8,7 +8,7 @@ if sys.version_info.major != 3:
     sys.exit(1)
 
 import unittest
-from caloric_balance import main
+import main
 
 
 class TestApplyAction(unittest.TestCase):
@@ -68,7 +68,7 @@ class TestApplyAction(unittest.TestCase):
                         'Function "applyAction" is not defined, check your spelling')
 
     def test002_applyActionCallsEatFoodActivity(self):
-        from caloric_balance.main import applyAction
+        from main import applyAction
         from caloric_balance import CaloricBalance
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)
         obal = cb.getBalance()
@@ -83,7 +83,7 @@ class TestApplyAction(unittest.TestCase):
                          'You printed:\n    %s' % lines
                          )
     def test003_applyActionCallsRecordActivityAction(self):
-        from caloric_balance.main import applyAction
+        from main import applyAction
         from caloric_balance import CaloricBalance
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)
         obal = cb.getBalance()
@@ -98,7 +98,7 @@ class TestApplyAction(unittest.TestCase):
                          'You printed:\n    %s' % lines
                          )
     def test004_applyActionCallsQuitAction(self):
-        from caloric_balance.main import applyAction
+        from main import applyAction
         from caloric_balance import CaloricBalance
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)
         obal = cb.getBalance()
@@ -114,7 +114,7 @@ class TestApplyAction(unittest.TestCase):
                          )
 
     def test005_applyActionDetectsIllegalAction(self):
-        from caloric_balance.main import applyAction
+        from main import applyAction
         from caloric_balance import CaloricBalance
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)
         obal = cb.getBalance()
@@ -134,8 +134,8 @@ class TestApplyAction(unittest.TestCase):
                          )
 
     def test006_illegalAction_activityActions(self):
-        from caloric_balance.main import formatActivityMenu
-        from caloric_balance.main import applyAction
+        from main import formatActivityMenu
+        from main import applyAction
         from caloric_balance import CaloricBalance
         import re
 

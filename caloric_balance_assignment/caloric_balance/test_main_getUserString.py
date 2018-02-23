@@ -9,7 +9,7 @@ if sys.version_info.major != 3:
 
 import unittest
 
-from caloric_balance import main
+import main
 
 
 class TestGetUserString(unittest.TestCase):
@@ -42,7 +42,7 @@ class TestGetUserString(unittest.TestCase):
         return
 
     def test002_getUserStringSendsCorrectPrompt(self):
-        from caloric_balance.main import getUserString
+        from main import getUserString
         expected_prompt = "HELLO"
         expected_response = "WORLD"
         self.input_response_list = [expected_response]
@@ -51,7 +51,7 @@ class TestGetUserString(unittest.TestCase):
         return
 
     def test003_getUserStringGetsInput(self):
-        from caloric_balance.main import getUserString
+        from main import getUserString
         expected_prompt = "HELLO"
         expected_response = "WORLD"
         self.input_response_list = [expected_response]
@@ -60,7 +60,7 @@ class TestGetUserString(unittest.TestCase):
         return
 
     def test004_getUserStringStripsWhitespace(self):
-        from caloric_balance.main import getUserString
+        from main import getUserString
         expected_prompt = "HELLO"
         expected_response = "WORLD"
         self.input_response_list = [" \t\n" + expected_response + " \t\n"]
@@ -69,7 +69,7 @@ class TestGetUserString(unittest.TestCase):
         return
 
     def test005_getUserStringIgnoresBlankLines(self):
-        from caloric_balance.main import getUserString
+        from main import getUserString
         expected_prompt = "HELLO"
         expected_response = "WORLD"
         self.input_response_list = ["", "\n", " \t\n" + expected_response + " \t\n"]

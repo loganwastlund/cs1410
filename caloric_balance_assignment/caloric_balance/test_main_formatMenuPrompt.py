@@ -9,7 +9,7 @@ if sys.version_info.major != 3:
 
 import unittest
 
-from caloric_balance import main
+import main
 
 
 class TestFormatMenuPrompt(unittest.TestCase):
@@ -19,7 +19,7 @@ class TestFormatMenuPrompt(unittest.TestCase):
         return
 
     def test002_formatMenuPromptReturnsCorrectString(self):
-        from caloric_balance.main import formatMenuPrompt
+        from main import formatMenuPrompt
         expected = "Enter an option: "
         actual = formatMenuPrompt()
         self.assertEqual(actual, expected)

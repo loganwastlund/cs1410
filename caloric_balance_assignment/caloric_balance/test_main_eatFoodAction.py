@@ -10,8 +10,7 @@ if sys.version_info.major != 3:
 import unittest
 import re
 
-from caloric_balance import main
-
+import main
 
 class TestEatFoodAction(unittest.TestCase):
     def input_replacement(self, prompt):
@@ -43,7 +42,7 @@ class TestEatFoodAction(unittest.TestCase):
                         'Function "eatFoodAction" is not defined, check your spelling')
 
     def test002_eatFoodAction_updatesBalance(self):
-        from caloric_balance.main import eatFoodAction
+        from main import eatFoodAction
         from caloric_balance import CaloricBalance
 
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)
@@ -73,7 +72,7 @@ class TestEatFoodAction(unittest.TestCase):
         )
 
     def test003_eatFoodAction_updatesBalance(self):
-        from caloric_balance.main import eatFoodAction
+        from main import eatFoodAction
         from caloric_balance import CaloricBalance
 
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)
@@ -107,7 +106,7 @@ class TestEatFoodAction(unittest.TestCase):
 
 
     def test004_eatFoodAction_updatesBalance(self):
-        from caloric_balance.main import eatFoodAction
+        from main import eatFoodAction
         from caloric_balance import CaloricBalance
 
         cb = CaloricBalance('f', 23.0, 65.0, 130.0)

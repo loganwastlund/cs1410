@@ -11,8 +11,7 @@ import unittest
 import re
 import random
 
-from caloric_balance import main
-
+import main
 
 class TestRecordActivityAction(unittest.TestCase):
     def input_replacement(self, prompt):
@@ -40,7 +39,7 @@ class TestRecordActivityAction(unittest.TestCase):
         main.print = self.print_replacement
 
     def checkOption(self, menu, option):
-        from caloric_balance.main import recordActivityAction
+        from main import recordActivityAction
         from caloric_balance import CaloricBalance
 
         self.setUp()
@@ -74,7 +73,7 @@ class TestRecordActivityAction(unittest.TestCase):
                         'Function "recordActivityAction" is not defined, check your spelling')
 
     def test002_recordActivityAction_Activity1_UpdatesBalance(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
 
         menu = formatActivityMenu()
         options = []
@@ -89,7 +88,7 @@ class TestRecordActivityAction(unittest.TestCase):
         self.checkOption(menu, options[0])
 
     def test003_recordActivityAction_Activity2_UpdatesBalance(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
 
         menu = formatActivityMenu()
         options = []
@@ -105,7 +104,7 @@ class TestRecordActivityAction(unittest.TestCase):
 
 
     def test004_recordActivityAction_Activity3_UpdatesBalance(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
 
         menu = formatActivityMenu()
         options = []
@@ -120,7 +119,7 @@ class TestRecordActivityAction(unittest.TestCase):
         self.checkOption(menu, options[2])
 
     def test005_recordActivityAction_Activity4_UpdatesBalance(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
 
         menu = formatActivityMenu()
         options = []
@@ -135,7 +134,7 @@ class TestRecordActivityAction(unittest.TestCase):
         self.checkOption(menu, options[3])
 
     def test006_recordActivityAction_RandomActivityChoice_UpdatesBalance(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
 
         menu = formatActivityMenu()
         options = []
@@ -150,7 +149,7 @@ class TestRecordActivityAction(unittest.TestCase):
         self.checkOption(menu, random.choice(options))
 
     def test007_recordActivityAction_AllOptions_UpdatesBalance(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
 
         menu = formatActivityMenu()
         options = []
@@ -166,8 +165,8 @@ class TestRecordActivityAction(unittest.TestCase):
             self.checkOption(menu, option)
 
     def test008_recordActivityAction_badOption(self):
-        from caloric_balance.main import recordActivityAction
-        from caloric_balance.main import formatActivityMenu
+        from main import recordActivityAction
+        from main import formatActivityMenu
         from caloric_balance import CaloricBalance
 
         menu = formatActivityMenu()

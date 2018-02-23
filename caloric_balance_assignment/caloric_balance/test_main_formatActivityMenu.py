@@ -10,7 +10,7 @@ if sys.version_info.major != 3:
 import unittest
 import re
 
-from caloric_balance import main
+import main
 
 
 class TestFormatActivityMenu(unittest.TestCase):
@@ -20,7 +20,7 @@ class TestFormatActivityMenu(unittest.TestCase):
         return
 
     def test002_formatMenuContainsAllActions(self):
-        from caloric_balance.main import formatActivityMenu
+        from main import formatActivityMenu
         actual = formatActivityMenu()
         self.assertTrue(type(actual) is list, 'formatActivityMenu did not return a list. It should return a list of strings.')
         self.assertGreaterEqual(len(actual), 5,

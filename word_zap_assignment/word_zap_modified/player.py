@@ -44,11 +44,3 @@ class Player:
             return 0
         else:
             return 2
-
-
-# luke = Player("Luke")
-# for i in range(20):
-#     luke.drawLetter()
-# print(luke.getLetters())
-# print(luke.checkWord("jade"))
-# print(luke.getLetters())

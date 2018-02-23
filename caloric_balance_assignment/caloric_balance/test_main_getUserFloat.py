@@ -9,7 +9,7 @@ if sys.version_info.major != 3:
 
 import unittest
 
-from caloric_balance import main
+import main
 
 
 class TestGetUserFloat(unittest.TestCase):
@@ -43,7 +43,7 @@ class TestGetUserFloat(unittest.TestCase):
         return
 
     def test002_getUserFloatSendsCorrectPrompt(self):
-        from caloric_balance.main import getUserFloat
+        from main import getUserFloat
         expected_prompt = "HELLO"
         expected_response = "1.7"
         self.input_response_list = [expected_response]
@@ -52,7 +52,7 @@ class TestGetUserFloat(unittest.TestCase):
         return
 
     def test003_getUserFloatGetsInput(self):
-        from caloric_balance.main import getUserFloat
+        from main import getUserFloat
         expected_prompt = "HELLO"
         expected_response = "1"
         self.input_response_list = [expected_response]
@@ -62,7 +62,7 @@ class TestGetUserFloat(unittest.TestCase):
         return
 
     def test004_getUserFloatStripsWhitespace(self):
-        from caloric_balance.main import getUserFloat
+        from main import getUserFloat
         expected_prompt = "HELLO"
         expected_response = "1.7"
         self.input_response_list = [" \t\n" + expected_response + " \t\n"]
@@ -72,7 +72,7 @@ class TestGetUserFloat(unittest.TestCase):
         return
 
     def test005_getUserFloatBadInputCheck(self):
-        from caloric_balance.main import getUserFloat
+        from main import getUserFloat
         expected_prompt = "HELLO"
         expected_response = "7.6"
         self.input_response_list = ["zero", "-1.7", "0", "0.0", "-20.0", "", "sixteen", expected_response]
@@ -83,7 +83,7 @@ class TestGetUserFloat(unittest.TestCase):
         return
 
     def test006_getUserFloatIgnoresBlankLines(self):
-        from caloric_balance.main import getUserFloat
+        from main import getUserFloat
         expected_prompt = "HELLO"
         expected_response = "10"
         self.input_response_list = ["", "0.0", "hello", "-1.7", "\n", " \t\n" + expected_response + " \t\n"]

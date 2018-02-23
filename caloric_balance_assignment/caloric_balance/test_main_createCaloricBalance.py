@@ -9,7 +9,7 @@ if sys.version_info.major != 3:
 
 import unittest
 
-from caloric_balance import main
+import main
 
 
 class TestCreateCaloricBalance(unittest.TestCase):
@@ -48,7 +48,7 @@ class TestCreateCaloricBalance(unittest.TestCase):
 
 
     def test002_createsCaloricBalanceInstance(self):
-        from caloric_balance.main import createCaloricBalance
+        from main import createCaloricBalance
         from caloric_balance import CaloricBalance
 
         gender = 'f'
@@ -62,7 +62,7 @@ class TestCreateCaloricBalance(unittest.TestCase):
 
 
     def test003_createsCaloricBalanceCheckInstance(self):
-        from caloric_balance.main import createCaloricBalance
+        from main import createCaloricBalance
 
         gender = 'f'
         age = '23'
@@ -89,7 +89,7 @@ class TestCreateCaloricBalance(unittest.TestCase):
             'Your result (%s) is not close enough to (%s)' % (actual, expected))
 
     def test004_createsCaloricBalanceBadInput(self):
-        from caloric_balance.main import createCaloricBalance
+        from main import createCaloricBalance
 
         gender = 'f'
         age = '23'
@@ -116,7 +116,7 @@ class TestCreateCaloricBalance(unittest.TestCase):
             'Your result (%s) is not close enough to (%s)' % (actual, expected))
 
     def test005_createsCaloricBalanceMale(self):
-        from caloric_balance.main import createCaloricBalance
+        from main import createCaloricBalance
 
         gender = 'm'
         age = '26'
@@ -143,7 +143,7 @@ class TestCreateCaloricBalance(unittest.TestCase):
             'Your result (%s) is not close enough to (%s)' % (actual, expected))
 
     def test006_createsCaloricBalanceBadGenderOption(self):
-        from caloric_balance.main import createCaloricBalance
+        from main import createCaloricBalance
 
         gender = 'x'
         age = '26'
