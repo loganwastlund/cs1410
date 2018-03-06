@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d1663f-a0af-4439-b550-cfd8d0848a34" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/word_zap_assignment/word_zap/player.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/word_zap_assignment/word_zap_modified/main.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/cs1410.iml" afterPath="$PROJECT_DIR$/.idea/cs1410.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_applyAction.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_applyAction.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_createCaloricBalance.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_createCaloricBalance.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_eatFoodAction.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_eatFoodAction.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatActivityMenu.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatActivityMenu.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatMenu.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatMenu.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatMenuPrompt.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatMenuPrompt.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_getUserFloat.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_getUserFloat.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_getUserString.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_getUserString.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_quitAction.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_quitAction.py" />
-      <change beforePath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_recordActivityAction.py" afterPath="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_recordActivityAction.py" />
-      <change beforePath="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/example.py" afterPath="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/example.py" />
-      <change beforePath="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/game.py" afterPath="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/game.py" />
-      <change beforePath="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py" afterPath="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py" />
-      <change beforePath="$PROJECT_DIR$/word_zap_assignment/dictionary.json" afterPath="$PROJECT_DIR$/word_zap_assignment/word_zap_modified/dictionary.json" />
-      <change beforePath="$PROJECT_DIR$/word_zap_assignment/main.py" afterPath="$PROJECT_DIR$/word_zap_assignment/word_zap/main.py" />
-      <change beforePath="$PROJECT_DIR$/word_zap_assignment/player.py" afterPath="$PROJECT_DIR$/word_zap_assignment/word_zap_modified/player.py" />
-      <change beforePath="$PROJECT_DIR$/word_zap_assignment/testjson.py" afterPath="$PROJECT_DIR$/word_zap_assignment/word_zap_modified/testjson.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,12 +13,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py">
+      <file leaf-file-name="picture.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/illustrate_assignment/death-star/picture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="446">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/illustrate_assignment/death-star/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +70,9 @@
         <option value="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py" />
         <option value="$PROJECT_DIR$/word_zap_assignment/word_zap/player.py" />
         <option value="$PROJECT_DIR$/word_zap_assignment/word_zap/main.py" />
+        <option value="$PROJECT_DIR$/illustrate_assignment/build-a-bear/main.py" />
+        <option value="$PROJECT_DIR$/illustrate_assignment/build-a-bear/picture.py" />
+        <option value="$PROJECT_DIR$/illustrate_assignment/death-star/main.py" />
       </list>
     </option>
   </component>
@@ -105,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -122,13 +117,12 @@
               <item name="cs1410" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs1410" type="462c0819:PsiDirectoryNode" />
               <item name="illustrate_assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="pygame-starter-lean" type="462c0819:PsiDirectoryNode" />
+              <item name="death-star" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,18 +131,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Sources/cs1410/gas_mileage_assignment/gas_mileage.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/word_zap_assignment/word_zap" />
-      <recent name="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance" />
-      <recent name="$PROJECT_DIR$/../Personal" />
-      <recent name="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
       <recent name="$PROJECT_DIR$/word_zap_assignment" />
       <recent name="$PROJECT_DIR$/word_zap_modified" />
       <recent name="$PROJECT_DIR$/caloric_balance_assignment" />
       <recent name="$PROJECT_DIR$/word_zap_assignment/word_zap" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
+      <recent name="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean" />
+      <recent name="$PROJECT_DIR$/word_zap_assignment/word_zap" />
       <recent name="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance" />
+      <recent name="$PROJECT_DIR$/../Personal" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +158,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_all (1)">
+  <component name="RunManager" selected="Python.main (3)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs1410" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs1410" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illustrate_assignment/build-a-bear/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illustrate_assignment/death-star" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs1410" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illustrate_assignment/death-star/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,62 +249,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests in test_player_checkWord.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word_zap_assignment/word_zap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs1410" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_checkWord.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_player_getName.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word_zap_assignment/word_zap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs1410" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_getName.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_player_init.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word_zap_assignment/word_zap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs1410" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_init.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test_all (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_player_checkWord.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_player_init.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_player_getName.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_all (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_player_checkWord.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_player_getName.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_player_init.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_all (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -308,13 +315,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18675123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8017903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23913044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -335,46 +342,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/dictionary.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/player.py">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -468,14 +440,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/dictionary.json">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="102218" column="1" lean-forward="true" selection-start-line="102218" selection-start-column="1" selection-end-line="102218" selection-end-column="1" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="270">
           <caret line="0" column="285943" lean-forward="false" selection-start-line="0" selection-start-column="285942" selection-end-line="0" selection-end-column="285943" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="102218" column="1" lean-forward="true" selection-start-line="102218" selection-start-column="1" selection-end-line="102218" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -488,7 +460,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/illustrate_assignment/__init__.py" />
     <entry file="file://$PROJECT_DIR$/illustrate_assignment/illustrate.py" />
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/picture.py" />
     <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main_example.py" />
     <entry file="file://$PROJECT_DIR$/../Personal/pygame-starter-lean/game.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -501,20 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -589,14 +546,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="LargeFileEditor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5614" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -607,21 +564,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -629,16 +582,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/build-a-bear/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/build-a-bear/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/build-a-bear/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="63" column="72" lean-forward="false" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/build-a-bear/picture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/death-star/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main.py">
+    <entry file="file://$PROJECT_DIR$/illustrate_assignment/death-star/picture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="446">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
