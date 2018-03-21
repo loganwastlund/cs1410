@@ -1,18 +1,17 @@
 import pygame
 import game
 # YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
-import picture
+import example
 
 # YOU SHOULD CONFIGURE THESE TO MATCH YOUR GAME
 # window title bar text
-TITLE = "The Death Star"
+TITLE = "EXAMPLE"
 # pixels width
-WINDOW_WIDTH  = 1200
+WINDOW_WIDTH  = 700
 # pixels high
-WINDOW_HEIGHT = 800
+WINDOW_HEIGHT = 600
 # frames per second
-DESIRED_RATE  = 70
-
+DESIRED_RATE  = 10
 
 class PygameApp( game.Game ):
 
@@ -22,9 +21,10 @@ class PygameApp( game.Game ):
         
         # create a game instance
         # YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
-        self.mGame = picture.Picture( width, height )
+        self.mGame = example.Example( width, height )
         return
-
+        
+        
     def game_logic( self, keys, newkeys, buttons, newbuttons, mouse_position, dt ):
         # keys contains all keys currently held down
         # newkeys contains all keys pressed since the last frame
@@ -47,9 +47,18 @@ class PygameApp( game.Game ):
 
         # Update the state of the game instance
         # YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
+        if pygame.K_a in newkeys:
+            self.mGame.actOnPressA( )
+        elif pygame.K_a in keys:
+            self.mGame.actOnHoldA( )
+        
+        if pygame.K_UP in keys:
+            self.mGame.actOnHoldUP( )
 
-        # if key == (a key you chose) instances
-        # YOU WILL BE USING MOUSE CLICKS ON OBJECTS :)
+        if 1 in newbuttons:
+            self.mGame.actOnLeftClick( x, y )
+
+        self.mGame.evolve( dt )
 
         return
     
@@ -58,12 +67,10 @@ class PygameApp( game.Game ):
         self.mGame.draw( surface )
         return
 
-
 def main( ):
     pygame.font.init( )
     game = PygameApp( TITLE, WINDOW_WIDTH, WINDOW_HEIGHT, DESIRED_RATE )
     game.main_loop( )
-
-
+    
 if __name__ == "__main__":
     main( )
