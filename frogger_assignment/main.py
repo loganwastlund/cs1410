@@ -1,76 +1,113 @@
 import pygame
 import game
-# YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
-import example
+import froggerlib
+from config import *
 
-# YOU SHOULD CONFIGURE THESE TO MATCH YOUR GAME
-# window title bar text
-TITLE = "EXAMPLE"
-# pixels width
-WINDOW_WIDTH  = 700
-# pixels high
-WINDOW_HEIGHT = 600
-# frames per second
-DESIRED_RATE  = 10
 
 class PygameApp( game.Game ):
+    def __init__(self):
+        game.Game.__init__(
+            self,
+            'Frogger',
+            SCREEN_WIDTH,
+            SCREEN_HEIGHT,
+            FRAME_RATE
+        )
 
-    def __init__( self, title, width, height, frame_rate ):
+        self.stage1 = froggerlib.Stage(0, (ROWS - 1) * VG, SCREEN_WIDTH, VG)
+        self.stage2 = froggerlib.Stage(0, (ROWS - 6) * VG, SCREEN_WIDTH, VG)
+        self.road = froggerlib.Road(0, 6 * VG, SCREEN_WIDTH, 4 * VG)
+        self.frog = None
 
-        game.Game.__init__( self, title, width, height, frame_rate )
-        
-        # create a game instance
-        # YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
-        self.mGame = example.Example( width, height )
-        return
-        
-        
-    def game_logic( self, keys, newkeys, buttons, newbuttons, mouse_position, dt ):
-        # keys contains all keys currently held down
-        # newkeys contains all keys pressed since the last frame
-        # Use pygame.K_? as the keyboard keys.
-        # Examples: pygame.K_a, pygame.K_UP, etc.
-        # if pygame.K_UP in newkeys:
-        #    The user just pressed the UP key
-        #
-        # buttons contains all mouse buttons currently held down
-        # newbuttons contains all buttons pressed since the last frame
-        # Use 1, 2, 3 as the mouse buttons
-        # if 3 in buttons:
-        #    The user is holding down the right mouse button
-        #
-        # mouse_position contains x and y location of mouse in window
-        # dt contains the number of seconds since last frame
-        
-        x = mouse_position[ 0 ]
-        y = mouse_position[ 1 ]
-
-        # Update the state of the game instance
-        # YOU SHOULD CHANGE THIS TO IMPORT YOUR GAME MODULE
-        if pygame.K_a in newkeys:
-            self.mGame.actOnPressA( )
-        elif pygame.K_a in keys:
-            self.mGame.actOnHoldA( )
-        
-        if pygame.K_UP in keys:
-            self.mGame.actOnHoldUP( )
-
-        if 1 in newbuttons:
-            self.mGame.actOnLeftClick( x, y )
-
-        self.mGame.evolve( dt )
-
-        return
-    
-    def paint( self, surface ):
-        # Draw the current state of the game instance
-        self.mGame.draw( surface )
+        self.restart()
         return
 
-def main( ):
-    pygame.font.init( )
-    game = PygameApp( TITLE, WINDOW_WIDTH, WINDOW_HEIGHT, DESIRED_RATE )
-    game.main_loop( )
-    
+    def restart(self):
+        x = COLS // 2 * HG + (PADDING/2)
+        y = (ROWS - 1) * VG + (PADDING/2)
+        self.frog = froggerlib.Frog(x, y, FROG_SIZE, FROG_SIZE, x, y, 8, HG, VG)
+
+    def dead(self):
+        if self.frog.outOfBounds(SCREEN_WIDTH, SCREEN_HEIGHT):
+            return True
+
+        return False
+
+    def game_logic(self, keys, newkeys, buttons, newbuttons, mouse_position, dt):
+        if self.dead():
+            if pygame.K_r in newkeys:
+                self.restart()
+            return
+
+        x = mouse_position[0]
+        y = mouse_position[1]
+
+        if pygame.K_LEFT in newkeys:
+            self.frog.left()
+
+        elif pygame.K_RIGHT in newkeys:
+            self.frog.right()
+
+        elif pygame.K_UP in newkeys:
+            self.frog.up()
+
+        elif pygame.K_DOWN in newkeys:
+            self.frog.down()
+
+        self.frog.move()
+
+        return
+
+    def px(self, x):
+        return x * HG
+
+    def py(self, y):
+        return y * VG
+
+    def draw_object(self, surface, obj, color):
+        rect = pygame.Rect(
+            obj.getX(),
+            obj.getY(),
+            obj.getWidth(),
+            obj.getHeight()
+        )
+        pygame.draw.rect(surface, color, rect)
+
+    def draw_stage(self, surface, stage):
+        color = (255, 191, 250)
+        self.draw_object(surface, stage, color)
+
+    def draw_road(self, surface, road):
+        color = (100, 100, 100)
+        self.draw_object(surface, road, color)
+
+    def draw_frog(self, surface):
+        color = (0, 255, 0)
+        self.draw_object(surface, self.frog, color)
+
+    def draw_grid(self, surface):
+        if not DEBUG:
+            return
+        for y in range(ROWS):
+            for x in range(COLS):
+                rect = pygame.Rect(self.px(x), self.py(y), HG, VG)
+                pygame.draw.rect(surface, (255, 255, 0), rect, 1)
+
+    def paint(self, surface):
+        self.draw_stage(surface, self.stage1)
+        self.draw_stage(surface, self.stage2)
+        self.draw_road(surface, self.road)
+
+        self.draw_frog(surface)
+        self.draw_grid(surface)
+        return
+
+
+def main():
+    pygame.font.init()
+    game = PygameApp()
+    game.main_loop()
+
+
 if __name__ == "__main__":
-    main( )
+    main()

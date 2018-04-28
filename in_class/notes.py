@@ -106,6 +106,39 @@ bluesharpie1.show()
 
 # TODO: surprise Logan, remember this, it is cool!!!!!!!!!!!!!!!!!!!!!!!
 TODO: surprise Logan, remember this, it is cool!!!!!!!!!!!!!!!!!!!!!!!
-
+# just comment sentence out, as long as TODO: is at the start it will do this!
 
 # collapse code -> Command + -
+
+
+
+# operator overloading
+
+# def __gt__(self):  <-- Greater than (>)
+#     __ls__         <-- Less than (<)
+#     __eq__         <-- Equal to (==)
+#     __add__        <-- Add (+)
+#     __mul__        <-- Multiply(*)
+#     __iadd__       <-- Add (+=)
+
+
+# unittest
+import unittest
+import sys
+from unittest import TestCase, main
+
+class Test(TestCase):
+    def setUp(self):
+        self.something = 'something'
+        self.othersomething = 'othersomething'
+
+    def test_a_test(self): # has to start with test
+        self.assertEqual(self.something + self.othersomething, 'somethingothersomething')
+
+    @unittest.skipIf(not sys.platform.startswith('darwin'), "This should be skipped") # only macs, mac = 'darwin'?
+    def test_b_test_mac(self):
+        self.fail('Just Because')
+        pass
+
+if __name__ == "main":
+   main()
