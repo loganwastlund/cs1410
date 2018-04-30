@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d1663f-a0af-4439-b550-cfd8d0848a34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cs1410.iml" afterPath="$PROJECT_DIR$/.idea/cs1410.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pong_assignment/test_all_pong/paddle.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pong_assignment/test_all_pong/wall.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/ball.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_001_constructor_and_getters.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_002_set_position.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_003_set_speed.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_004_set_paddle_y.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_005_check_boundary.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_006_check_left_paddle_bounce.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_007_check_right_paddle_bounce.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_008_move.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_009_serve_left.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_010_serve_right.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_all.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,12 +67,24 @@
         <option value="$PROJECT_DIR$/illustrate_assignment/death-star/main.py" />
         <option value="$PROJECT_DIR$/illustrate_assignment/death-star/picture.py" />
         <option value="$USER_HOME$/Desktop/Kattis Problems/cold-puter science/solution.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_005_check_boundary.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_006_check_left_paddle_bounce.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_ball/test_ball_007_check_right_paddle_bounce.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_ball/ball.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/scoreboard.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/ball.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/game.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/paddle.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/pong.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/text.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/wall.py" />
+        <option value="$PROJECT_DIR$/pong_assignment/test_all_pong/score_board.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="720" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -81,30 +105,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cs1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kattis Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="cs1410" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kattis Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="cold-puter science" type="462c0819:PsiDirectoryNode" />
+              <item name="cs1410" type="462c0819:PsiDirectoryNode" />
+              <item name="pong_assignment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs1410" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kattis Problems" type="462c0819:PsiDirectoryNode" />
-              <item name="cold-puter science" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="cs1410" type="462c0819:PsiDirectoryNode" />
+              <item name="pong_assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="test_all_pong" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,19 +137,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Sources/cs1410/gas_mileage_assignment/gas_mileage.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/Desktop/Kattis Problems/cold-puter science" />
-      <recent name="$PROJECT_DIR$/frogger_assignment" />
-      <recent name="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
-      <recent name="$PROJECT_DIR$/word_zap_assignment" />
-      <recent name="$PROJECT_DIR$/word_zap_modified" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../Personal/randomchanges" />
       <recent name="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
       <recent name="$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean" />
       <recent name="$PROJECT_DIR$/word_zap_assignment/word_zap" />
       <recent name="$PROJECT_DIR$/caloric_balance_assignment/caloric_balance" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pong_assignment" />
+      <recent name="$USER_HOME$/Desktop/Kattis Problems/cold-puter science" />
+      <recent name="$PROJECT_DIR$/frogger_assignment" />
+      <recent name="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
+      <recent name="$PROJECT_DIR$/word_zap_assignment" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,111 +164,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solution">
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illustrate_assignment/build-a-bear" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pong_assignment/test_all_pong" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cs1410" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illustrate_assignment/build-a-bear/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pong_assignment/test_all_pong/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_paddle_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illustrate_assignment/death-star" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pong_assignment/test_all_pong" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cs1410" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illustrate_assignment/death-star/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pong_assignment/test_all_pong/test_paddle_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_score_board_001_constructor_and_getters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Personal/randomchanges" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Personal" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Personal/randomchanges/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="picture" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/illustrate_assignment/death-star" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pong_assignment/test_all_pong" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cs1410" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/illustrate_assignment/death-star/picture.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pong_assignment/test_all_pong/test_score_board_001_constructor_and_getters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_score_board_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Kattis Problems/cold-puter science" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pong_assignment/test_all_pong" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Kattis Problems" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Kattis Problems/cold-puter science/solution.py" />
+      <module name="cs1410" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pong_assignment/test_all_pong/test_score_board_all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_wall_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pong_assignment/test_all_pong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs1410" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pong_assignment/test_all_pong/test_wall_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.picture" />
-      <item index="4" class="java.lang.String" itemvalue="Python.solution" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test_paddle_all" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_wall_all" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_score_board_all" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_score_board_001_constructor_and_getters" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.picture" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_score_board_all" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_score_board_001_constructor_and_getters" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_wall_all" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_paddle_all" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +289,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_CaloricBalance_all_py - 2018.02.23 at 07h 49m 25s.xml">
-      <configuration name="Unittests in test_CaloricBalance_all.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_paddle_001_constructor_and_getters_py - 2018.04.29 at 23h 51m 59s.xml">
+      <configuration name="Unittests in test_paddle_001_constructor_and_getters.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_main_formatMenuPrompt_py - 2018.02.23 at 07h 49m 44s.xml">
-      <configuration name="Unittests in test_main_formatMenuPrompt.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_paddle_002_set_position_py - 2018.04.29 at 23h 54m 21s.xml">
+      <configuration name="Unittests in test_paddle_002_set_position.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_main_quitAction_py - 2018.02.23 at 07h 51m 26s.xml">
-      <configuration name="Unittests in test_main_quitAction.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_paddle_003_move_py - 2018.04.29 at 23h 55m 24s.xml">
+      <configuration name="Unittests in test_paddle_003_move.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_player_checkWord_py - 2018.02.23 at 07h 58m 00s.xml">
       <configuration name="Unittests in test_player_checkWord.py" configurationId="tests" />
@@ -297,9 +321,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18675123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18604651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23913044" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -323,174 +347,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dnaSequence_assignment/dnaSequencing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_getLetters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_drawLetter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/in_class/notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance_assignment/caloric_balance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Personal/sudoku.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1301">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv1/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/dictionary.txt" />
-    <entry file="file://$PROJECT_DIR$/../Personal/bridge_constructor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="213" column="0" lean-forward="true" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/dictionary.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="270">
-          <caret line="0" column="285943" lean-forward="false" selection-start-line="0" selection-start-column="285942" selection-end-line="0" selection-end-column="285943" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="102218" column="1" lean-forward="true" selection-start-line="102218" selection-start-column="1" selection-end-line="102218" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap_modified/testjson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/illustrate.py" />
-    <entry file="file://$PROJECT_DIR$/illustrate_assignment/pygame-starter-lean/main_example.py" />
-    <entry file="file://$PROJECT_DIR$/../Personal/pygame-starter-lean/game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Personal/pygame-starter-lean/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gas_mileage_assignment/gas_mileage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_CaloricBalance_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_formatMenuPrompt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_main_quitAction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance_assignment/caloric_balance/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caloric_balance_assignment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_printLetters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_getName.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/word_zap_assignment/word_zap/test_player_checkWord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
@@ -611,5 +472,219 @@
     <entry file="file://$USER_HOME$/Desktop/Kattis Problems/cold-puter science/samples/cold-002.ans" />
     <entry file="file://$USER_HOME$/Desktop/Kattis Problems/cold-puter science/samples/cold-001.ans" />
     <entry file="file://$USER_HOME$/Desktop/Kattis Problems/cold-puter science/solution.py" />
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_ball/test_ball_005_check_boundary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="152" column="14" lean-forward="true" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_ball/test_ball_006_check_left_paddle_bounce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_ball/test_ball_007_check_right_paddle_bounce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_ball/test_ball_008_move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3530">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_ball/test_ball_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_ball/ball.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_paddle_001_constructor_and_getters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_paddle_002_set_position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="623" column="0" lean-forward="false" selection-start-line="623" selection-start-column="0" selection-end-line="623" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_paddle_003_move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_paddle_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_wall_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/scoreboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_score_board_001_constructor_and_getters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/test_score_board_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/pong_starter/pong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/pong_starter/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/ball.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/pong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/score_board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/wall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pong_assignment/test_all_pong/paddle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
